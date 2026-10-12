@@ -108,8 +108,10 @@ section+section{border-top:1px solid var(--line)}
 .langs{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
 .langs span{font:700 22px/1 var(--display);font-stretch:105%;padding:12px 18px;border:1.5px solid var(--line);border-radius:6px;background:var(--sheet)}
 .langs span:first-child{border-color:var(--ink)}
-.plans{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:stretch}
-@media (max-width:900px){.plans{grid-template-columns:1fr}}
+.plans{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;align-items:stretch}
+@media (max-width:1100px){.plans{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.plans{grid-template-columns:1fr}}
+.btn[aria-disabled="true"]{opacity:.5;cursor:not-allowed;pointer-events:none}
 .plan{background:var(--sheet);border:1px solid var(--line);border-radius:8px;padding:28px;display:flex;flex-direction:column;gap:16px;min-width:0}
 .plan.best{border:2px solid var(--accent)}
 .plan .price{font:800 44px/1 var(--display);font-stretch:110%;font-variant-numeric:tabular-nums}
