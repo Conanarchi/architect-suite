@@ -1,5 +1,8 @@
 {
-  "version": "1.0.0",
-  "notes": "First public release: nine tools for Revit 2020-2026 in five languages.",
-  "url": "https://conanarchi.github.io/architect-suite/#install"
+  "version": "1.6.0",
+  "notes": "Architect Suite 1.6.0 adds SubmitIt for municipality submissions, a PDF export that saves straight into your folder with your chosen names, and a 14-day trial with licence keys.",
+  "url": "https://conanarchi.github.io/architect-suite/",
+  "installer": "https://github.com/conanarchi/architect-suite/releases/download/v1.6.0/ArchitectSuite-Setup-1.6.0.exe",
+  "sha256": "b33ebb10b77b416e5ff149d8014c4906c93d4d0f3363e62b8cab65793e5409ea",
+  "signature": "iLhaZQ2Lg6xBVB71zXHAKMO2kCF+Ew/C/AxDajauwojn1cED/7aF8BL0qC+uxPoNQgXjGSZIl40eFacXvmflgg=="
 }
