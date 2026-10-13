@@ -6,7 +6,7 @@ window.SITE = {
   // --- who you are (used on the Terms, Privacy and Refund pages) -----------------------------
   legalName:    "",                       // e.g. "Jane Doe" or "Studio X LLC".  Empty = "the publisher"
   country:      "",                       // e.g. "France".  Empty = no country line on the legal pages
-  contactEmail: "",                       // support + order e-mail.  Empty = Buy buttons are disabled
+  contactEmail: "architectsuite.revit@outlook.com",                       // support + order e-mail.  Empty = Buy buttons are disabled
   lastUpdated:  "12 October 2026",
 
   // --- downloads ------------------------------------------------------------------------------
