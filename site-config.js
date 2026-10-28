@@ -18,9 +18,9 @@ window.SITE = {
   // Paste a checkout link per plan (Stripe Payment Link, Lemon Squeezy, Paddle, ...).
   // While a link is empty, that Buy button opens an e-mail order to contactEmail instead.
   checkout: {
-    pro:    "",     // Pro, 1 user, 1 year
-    office: "",     // Office pack, 5 licences, 1 year
-    studio: ""      // Studio pack, 10 licences, 1 year
+    pro:    "https://architectsuite.lemonsqueezy.com/checkout/buy/ebca071f-ac10-4b27-9a01-72de6cdff19d",     // Pro, 1 user, 1 year
+    office: "https://architectsuite.lemonsqueezy.com/checkout/buy/c0f790ac-0146-4134-87af-ad23cda8c7fe",     // Office pack, 5 licences, 1 year
+    studio: "https://architectsuite.lemonsqueezy.com/checkout/buy/6ebe9093-bc52-440a-ad7b-d59ee4f16e17"      // Studio pack, 10 licences, 1 year
   },
   plans: {
     pro:    { name: "Architect Suite Pro (1 user, 1 year)",       price: "$39" },
